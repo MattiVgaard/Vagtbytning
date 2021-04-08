@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vagter"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_vagter" />
+        <item
+            android:id="@+id/nav_byttebørs"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="@string/menu_byttebørs" />
+        <item
+            android:id="@+id/nav_indboks"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="@string/menu_indboks" />
+        <item
+            android:id="@+id/nav_nødsituation"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="@string/menu_nødsituation" />
+        <item
+            android:id="@+id/nav_sygmelding"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/menu_sygmelding" />
+        <item
+            android:id="@+id/nav_løn"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/menu_løn" />
+        <item
+            android:id="@+id/nav_kurser"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_kurser" />
+        <item
+            android:id="@+id/nav_telefonbog"
+            android:icon="@android:drawable/stat_sys_speakerphone"
+            android:title="@string/menu_telefonbog" />
+        <item
+            android:id="@+id/nav_indstillinger"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_instillinger" />
+    </group>
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Vagtbytning</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_byttebørs">Byttebørs</string>
+    <string name="menu_indboks">Indboks</string>
+    <string name="menu_nødsituation">Nødsituation</string>
+    <string name="menu_vagter">Vagter</string>
+    <string name="menu_sygmelding">Syg og feriemelding</string>
+    <string name="menu_løn">Løn og Highscore</string>
+    <string name="menu_kurser">Kurser</string>
+    <string name="menu_telefonbog">Telefonbog</string>
+    <string name="menu_instillinger">Indstillinger</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

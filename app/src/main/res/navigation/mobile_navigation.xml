@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_vagter">
+
+    <fragment
+        android:id="@+id/nav_vagter"
+        android:name="com.MattiVgaard.vagtbytning.ui.vagter.VagterFragment"
+        android:label="@string/menu_vagter"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_indboks"
+        android:name="com.MattiVgaard.vagtbytning.ui.indboks.IndboksFragment"
+        android:label="@string/menu_indboks"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_nødsituation"
+        android:name="com.MattiVgaard.vagtbytning.ui.nødsituation.NoedsituationFragment"
+        android:label="@string/menu_nødsituation"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_sygmelding"
+        android:name="com.MattiVgaard.vagtbytning.ui.sygmelding.SygmeldingFragment"
+        android:label="@string/menu_sygmelding"
+        tools:layout="@layout/fragment_sygmelding" />
+    <fragment
+        android:id="@+id/nav_løn"
+        android:name="com.MattiVgaard.vagtbytning.ui.highscore.HighscoreFragment"
+        android:label="@string/menu_løn"
+        tools:layout="@layout/fragment_highscore" />
+    <fragment
+        android:id="@+id/nav_kurser"
+        android:name="com.MattiVgaard.vagtbytning.ui.kurser.KurserFragment"
+        android:label="@string/menu_kurser"
+        tools:layout="@layout/fragment_kurser" />
+    <fragment
+        android:id="@+id/nav_telefonbog"
+        android:name="com.MattiVgaard.vagtbytning.ui.telefonbog.TelefonbogFragment"
+        android:label="@string/menu_telefonbog"
+        tools:layout="@layout/fragment_telefonbog" />
+    <fragment
+        android:id="@+id/nav_indstillinger"
+        android:name="com.MattiVgaard.vagtbytning.ui.instillinger.InstillingerFragment"
+        android:label="@string/menu_instillinger"
+        tools:layout="@layout/fragment_instillinger" />
+    <fragment
+        android:id="@+id/nav_byttebørs"
+        android:name="com.MattiVgaard.vagtbytning.ui.byttebørs.BytteFragment"
+        android:label="@string/menu_byttebørs"
+        tools:layout="@layout/fragment_bytte" />
+</navigation>
