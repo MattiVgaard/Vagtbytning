@@ -22,7 +22,7 @@ public class IndboksFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         indboksViewModel =
                 new ViewModelProvider(this).get(IndboksViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        View root = inflater.inflate(R.layout.fragment_indboks, container, false);
         final TextView textView = root.findViewById(R.id.text_gallery);
         indboksViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

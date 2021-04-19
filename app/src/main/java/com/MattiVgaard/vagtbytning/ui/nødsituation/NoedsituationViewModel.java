@@ -10,7 +10,7 @@ public class NoedsituationViewModel extends ViewModel {
 
     public NoedsituationViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("Dato:");
     }
 
     public LiveData<String> getText() {

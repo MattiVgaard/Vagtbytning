@@ -9,19 +9,19 @@
         android:id="@+id/nav_vagter"
         android:name="com.MattiVgaard.vagtbytning.ui.vagter.VagterFragment"
         android:label="@string/menu_vagter"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_vagter" />
 
     <fragment
         android:id="@+id/nav_indboks"
         android:name="com.MattiVgaard.vagtbytning.ui.indboks.IndboksFragment"
         android:label="@string/menu_indboks"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_indboks" />
 
     <fragment
         android:id="@+id/nav_nødsituation"
         android:name="com.MattiVgaard.vagtbytning.ui.nødsituation.NoedsituationFragment"
         android:label="@string/menu_nødsituation"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_noedsituation" />
     <fragment
         android:id="@+id/nav_sygmelding"
         android:name="com.MattiVgaard.vagtbytning.ui.sygmelding.SygmeldingFragment"

@@ -19,4 +19,24 @@
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Ferie strings.
+    <string name="ferie_headline">Ferie</string>
+    <string name="ferie_fra">Fra</string>
+    <string name="ferie_til">Til</string>
+
+    // vagt strings
+    <string name="VagtTidspunkt">Tidspunkt:</string>
+    <string name="VagtDato">Dato:</string>
+
+    //nød strings
+    <string name="nødHeadlineo">Headline</string>
+    <string name="nødText">Selve beskeden</string>
+    <string name="nødknap1">Ja</string>
+    <string name="nødknap2">lidt</string>
+    <string name="nødknap3">nej</string>
+    <string name="nødSpørgsmål">Kan du tage vagten eller lidt af den?</string>
+
+
+
 </resources>
