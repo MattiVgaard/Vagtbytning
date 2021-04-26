@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements VagtAdapter.OnLis
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(R.id.nav_vagter,
-                R.id.nav_byttebørs, R.id.nav_indboks, R.id.nav_nødsituation, R.id.nav_sygmelding, R.id.nav_løn, R.id.nav_kurser, R.id.nav_telefonbog, R.id.nav_indstillinger)
+                R.id.nav_byttebørs, R.id.nav_indboks, R.id.nav_nødsituation, R.id.nav_sygmelding, R.id.nav_løn, R.id.nav_kurser, R.id.nav_telefonbog, R.id.nav_indstillinger, R.id.nav_login)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);

@@ -52,4 +52,5 @@
         android:name="com.MattiVgaard.vagtbytning.ui.byttebørs.BytteFragment"
         android:label="@string/menu_byttebørs"
         tools:layout="@layout/fragment_bytte" />
+
 </navigation>

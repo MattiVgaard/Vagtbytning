@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394437270830",
+    "project_id": "vagtbytning",
+    "storage_bucket": "vagtbytning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394437270830:android:70e6ed3c3d7c103e206ebf",
+        "android_client_info": {
+          "package_name": "com.MattiVgaard.vagtbytning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394437270830-0ok55nd0v2n796ps2t5hir5drtpfcgfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcGSqxZulcN1cAFz2VYo6wqZf8V5yJkLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394437270830-0ok55nd0v2n796ps2t5hir5drtpfcgfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
