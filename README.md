@@ -11,3 +11,6 @@ Det skal være muligt at tilbyde andre vagter eller gøre dem offentlige så and
 Man skal få en notifikation hvis arbejdspladsen mangler nogen til en vagt.
 Der skal laves et rangsystem, så arbejdsgiveren kan se hvem der hjælper med vagter og hvem som ikke gør.
 I nødsituationer skal det være muligt at tilbyde delvis hjælp, som fx kun at kunne arbejde 4 timer i stedet for alle 6.
+
+Youtube link:
+https://youtu.be/olCrHPDqZqg
