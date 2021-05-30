@@ -1,16 +1,21 @@
 package com.MattiVgaard.vagtbytning.ui.sygmelding;
 
+import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Toast;
+
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import com.MattiVgaard.vagtbytning.R;
 
@@ -23,9 +28,20 @@ public class SygmeldingFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
-                             @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_sygmelding, container, false);
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+                              Bundle savedInstanceState) {
+        mViewModel =
+                new ViewModelProvider(this).get(SygmeldingViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_sygmelding, container, false);
+        Button button1 = root.findViewById(R.id.ferieButton);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity(), "Ønsket ferie sendt!", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        return root;
     }
 
     @Override
