@@ -2,8 +2,8 @@
     <string name="app_name">Vagtbytning</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Mathias Westergaard</string>
+    <string name="nav_header_subtitle">Mathias.w@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -38,6 +38,9 @@
     <string name="nødknap3">nej</string>
     <string name="nødSpørgsmål">Kan du tage vagten eller lidt af den?</string>
     <string name="title_activity_settings">SettingsActivity</string>
+    <string name="nødsvarknap">Send</string>
+    <string name="nødsvar">Hvor meget af vagten kan du tage?</string>
+
 
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>

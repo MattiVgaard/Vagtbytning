@@ -54,12 +54,6 @@ public class VagtAdapter extends RecyclerView.Adapter<VagtAdapter.ViewHolder> {
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    listener.onClick(getAdapterPosition());
-                }
-            });
             dato = itemView.findViewById(R.id.vagtDato);
             startTime = itemView.findViewById(R.id.vagtTidFra);
             slutTime = itemView.findViewById(R.id.vagtTidTil);

@@ -10,7 +10,7 @@ public class NoedsituationViewModel extends ViewModel {
 
     public NoedsituationViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Dato:");
+        mText.setValue("Sygdom");
     }
 
     public LiveData<String> getText() {

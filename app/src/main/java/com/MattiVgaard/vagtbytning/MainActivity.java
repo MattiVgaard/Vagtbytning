@@ -1,13 +1,22 @@
 package com.MattiVgaard.vagtbytning;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.MattiVgaard.vagtbytning.ui.MainActivityViewModel;
 import com.MattiVgaard.vagtbytning.ui.vagter.VagtAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -15,11 +24,15 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.RecyclerView;
 
 public class MainActivity extends AppCompatActivity implements VagtAdapter.OnListItemClickListener {
 
     private AppBarConfiguration mAppBarConfiguration;
+    private EditText messageEditText;
+    private TextView messageTextView;
+    private TextView welcomeMessage;
+    private MainActivityViewModel viewModel;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,4 +80,7 @@ public class MainActivity extends AppCompatActivity implements VagtAdapter.OnLis
     public void onClick(int position) {
 
     }
+
+
+
 }
